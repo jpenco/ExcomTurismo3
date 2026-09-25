@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: excom-turismo
+    runtime: static
+    buildCommand: echo "Site estático, sem build necessário"
+    staticPublishPath: .
